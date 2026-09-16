@@ -7,25 +7,25 @@ cask "markdown-reviewer" do
     end
   end
 
-  version "0.36.1"
+  version "0.36.2"
 
   on_macos do
     on_arm do
-      sha256 "7e5f00f64cbaeb0ccf5b810a9b3a99e5287a6d9e8ecf0df5a175c79afc0f36e9"
+      sha256 "252d53f15497c5878a49fb93b4ee194486850e25938c0d1571065c05e7e00dd2"
       url "https://github.com/rengotaku/markdown-reviewer/releases/download/v#{version}/markdown-reviewer_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "197ae66b5f7444691b7de19b6ea517f82d52ec2fd8a6e3f91d4069f9ed420370"
+      sha256 "773d47113e801aa036580a8dccc0cda25e1b631382262481aa959bcd26959792"
       url "https://github.com/rengotaku/markdown-reviewer/releases/download/v#{version}/markdown-reviewer_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "7b4ade589a508525afad3e2304d0660df16f2a9b660b271a726028bf89bd8ddb"
+      sha256 "b044006fcc4ffaa87ca6480b1b760665eb1f28e87fbe03e09fa5b77ce0c18cbf"
       url "https://github.com/rengotaku/markdown-reviewer/releases/download/v#{version}/markdown-reviewer_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "ccb8f85c1d9400f4622d511eeb11522b43344e6ced31d4dfcee836a3e3cc6b3a"
+      sha256 "6068af0ff8f6d090cecb12e2e9d158dea9aa96b9c4da21c92908b7d4a9a3afed"
       url "https://github.com/rengotaku/markdown-reviewer/releases/download/v#{version}/markdown-reviewer_#{version}_linux_amd64.tar.gz"
     end
   end
